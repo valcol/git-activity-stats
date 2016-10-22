@@ -1,0 +1,37 @@
+{
+  "name": "git-actitity-stats",
+  "version": "0.0.1",
+  "description": "Grab an contributions calendar from a github profil page and extact stats from it",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "dependencies" : {
+    "cheerio": "0.22.x",
+    "moment": "2.15.x",
+    "request": "2.75.x"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "assert": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valcol/GitActivityStats.git"
+  },
+  "keywords": [
+    "github",
+    "activity",
+    "contributions",
+    "streak",
+    "graph",
+    "stats",
+    "statistiques"
+  ],
+  "author": "valcol",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/valcol/GitActivityStats/issues"
+  },
+  "homepage": "https://github.com/valcol/GitActivityStats#readme"
+}
