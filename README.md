@@ -22,7 +22,7 @@ Extract :
 ## Usage
 
 ```javascript
-let gitactivitystats = require('git-actitity-stats');
+let gitactivitystats = require('git-activity-stats');
 
 gitactivitystats.getContributions('valcol', function(error, contrib){
 
