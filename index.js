@@ -171,7 +171,7 @@ GitActivityStats.prototype.getGithubOutliers = function (contributions) {
 
 /**
  * Get quartile boundaries, with the index as the quartile number
- * end the value as the upper bound of the quartile (inclusive)
+ * and the value as the upper bound of the quartile (inclusive)
  *
  * @param  {int[]} contributions - the contributions array
  * @return  {int[]} - quartile boundaries
