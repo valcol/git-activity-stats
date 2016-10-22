@@ -1,4 +1,4 @@
-# git-actitity-stats
+# git-activity-stats
 
 Grab an Github contributions calendar and extact stats from it.
 Based on [GithubStats](https://github.com/akerl/githubstats)
@@ -17,12 +17,12 @@ Extract :
 
 ## Installation
 
-`npm install git-actitity-stats`
+`npm install git-activity-stats`
 
 ## Usage
 
 ```javascript
-let gitactivitystats = require('./index.js');
+let gitactivitystats = require('git-actitity-stats');
 
 gitactivitystats.getContributions('valcol', function(error, contrib){
 

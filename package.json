@@ -1,6 +1,6 @@
 {
   "name": "git-actitity-stats",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Grab an contributions calendar from a github profil page and extact stats from it",
   "main": "index.js",
   "scripts": {
