@@ -1,6 +1,6 @@
 # git-activity-stats
 
-Grab an Github contributions calendar and extact stats from it.
+Grab a Github contributions calendar and extact stats from it.
 Based on [GithubStats](https://github.com/akerl/githubstats)
 
 ## Features
@@ -24,6 +24,7 @@ Extract :
 ```javascript
 let gitactivitystats = require('git-activity-stats');
 
+//Get contributions from the user
 gitactivitystats.getContributions('valcol', function(error, contrib){
 
   // Contributions array, day as index, number of commit as value
